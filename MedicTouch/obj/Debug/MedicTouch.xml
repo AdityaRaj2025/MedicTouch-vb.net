@@ -1,0 +1,456 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MedicTouch
+</name>
+</assembly>
+<members>
+<member name="T:MedicTouch.dbMedicTouchDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.TableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCategoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCompanyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCompositionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCurrentStockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblGSTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblLoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblProductMasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseEntryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseOrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseOrderListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblRackNoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblSaleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblStockInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblStockOutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblSupplierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblUserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblWarehouseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.TableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCategoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCompanyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCompositionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCurrentStockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblGSTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblLoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblProductMasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseEntryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseOrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseOrderListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblRackNoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblSaleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblStockInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblStockOutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblSupplierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblUserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblWarehouseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.TableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCategoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCompanyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCompositionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCurrentStockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblCustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblGSTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblLoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblProductMasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseEntryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseOrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblPurchaseOrderListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblRackNoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblSaleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblStockInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblStockOutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblSupplierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblUserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSet.tblWarehouseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.TableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblCategoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblCompanyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblCompositionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblCurrentStockTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblCustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblGSTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblLoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblProductMasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblPurchaseEntryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblPurchaseOrderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblPurchaseOrderListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblRackNoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblSaleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblStockInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblStockOutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblSupplierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblUserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.tblWarehouseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MedicTouch.dbMedicTouchDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MedicTouch.dbMedicTouchDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MedicTouch.dbMedicTouchDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MedicTouch.dbMedicTouchDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MedicTouch.dbMedicTouchDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MedicTouch.dbMedicTouchDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MedicTouch.dbMedicTouchDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MedicTouch.dbMedicTouchDataSetTableAdapters.TableAdapterManager.UpdateAll(MedicTouch.dbMedicTouchDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MedicTouch.dbMedicTouchDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MedicTouch.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MedicTouch.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MedicTouch.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MedicTouch.My.Resources.Resources._253393__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

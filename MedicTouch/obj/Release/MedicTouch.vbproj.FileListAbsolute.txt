@@ -1,0 +1,81 @@
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\MedicTouch.exe.config
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\MedicTouch.exe
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\MedicTouch.pdb
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\MedicTouch.xml
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.dll
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.Video.DirectShow.dll
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.Video.dll
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\Microsoft.ReportViewer.WinForms.dll
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.xml
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.Video.xml
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.Video.DirectShow.xml
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmAllReports.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmBatchNo.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmCurrentStock.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.FrmCustomer.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmCustomerReport.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmHelp.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmLogin.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmMdi.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmMdiAdmin.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPayment.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmProductMaster.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPurchaseEntry.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPurchaseEntryEidited.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPurchaseOrder.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPurchaseReturn.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmSale.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmSaleReturn.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmStockIn.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmStockOut.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmStoreSetup.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmSupplier.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmUser.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.Resources.resources
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.vbproj.GenerateResource.Cache
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\RdlCompile.cache
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\RdlCompile.compiled
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.exe
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.xml
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.pdb
+E:\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.vbprojResolveAssemblyReference.cache
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\MedicTouch.exe.config
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\MedicTouch.exe
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\MedicTouch.pdb
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\MedicTouch.xml
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.dll
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.Video.DirectShow.dll
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.Video.dll
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.xml
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.Video.xml
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\bin\Release\AForge.Video.DirectShow.xml
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.vbprojAssemblyReference.cache
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmAllReports.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmBatchNo.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmCurrentStock.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.FrmCustomer.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmCustomerReport.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmHelp.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmLogin.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmMdi.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmMdiAdmin.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPayment.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmProductMaster.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPurchaseEntry.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPurchaseEntryEidited.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPurchaseOrder.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmPurchaseReturn.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmSale.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmSaleReturn.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmStockIn.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmStockOut.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmStoreSetup.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmSupplier.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.frmUser.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.Resources.resources
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.vbproj.GenerateResource.cache
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.vbproj.CoreCompileInputs.cache
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.vbproj.CopyComplete
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.exe
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.xml
+E:\A@MMHAPU\A Study File\Visual Basic2015.Net Program\MedicTouch\MedicTouch\obj\Release\MedicTouch.pdb
