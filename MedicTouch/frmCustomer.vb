@@ -1,13 +1,21 @@
 ﻿Imports System.Data.SqlClient
 Public Class FrmCustomer
     Dim flag As Integer = 0
-    Public sqlCon As New SqlConnection("Server=(localdb)\MSSQLLocalDB;Database=dbMedicTouch;Integrated Security=True")
-    Public sqlCmd As New SqlCommand()
     Public sqlDr As SqlDataReader
-    Public sqlDA As New SqlDataAdapter()
     Public DS As New DataSet()
     Public DR As DataRow
-    Public sqlCB As New SqlCommandBuilder()
+
+    Private repo As Repository
+
+    Public Sub New()
+
+        ' Esta chamada é requerida pelo designer.
+        InitializeComponent()
+
+        ' Adicione qualquer inicialização após a chamada InitializeComponent().
+        repo = New Repository()
+    End Sub
+
     '***********Load Event Code********************************************************
     Private Sub FrmCustomer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.MaximumSize = New Size(1280, 598)
@@ -51,10 +59,7 @@ Public Class FrmCustomer
     '**************Function Customer Id**************************************************
     Private Sub GenerateCustomerId()
         Dim slno As Integer
-        sqlCon.Open()
-        sqlCmd.Connection = sqlCon
-        sqlCmd.CommandText = "Select CustomerId from tblCustomer"
-        sqlDr = sqlCmd.ExecuteReader()
+        sqlDr = repo.Query("Select CustomerId from tblCustomer")
         While (sqlDr.Read())
             txtCustomerId.Text = sqlDr(0).ToString
         End While
@@ -66,18 +71,13 @@ Public Class FrmCustomer
             txtCustomerId.Text = "C" & slno
         End If
         sqlDr.Close()
-        sqlCon.Close()
+        repo.Close()
     End Sub
     '********************************************************Custmer MemberShip******************************************************************
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        sqlCon.Open()
-        sqlCmd.Connection = sqlCon
-
         If flag = 0 Then
             MessageBox.Show(flag)
-            sqlCmd.CommandText = "Select * from tblCustomer"
-            sqlDA.SelectCommand = sqlCmd
-            sqlDA.Fill(DS, "tblCustomer")
+            repo.Fill(DS, "tblCustomer", "Select * from tblCustomer")
             DR = DS.Tables("tblCustomer").NewRow
             DR("CustomerId") = txtCustomerId.Text
             DR("CustomerName") = txtCustomerName.Text
@@ -101,14 +101,11 @@ Public Class FrmCustomer
             DR("Date") = Today.Date()
             DR("Time") = Now.TimeOfDay()
             DS.Tables("tblCustomer").Rows.Add(DR)
-            sqlCB.DataAdapter = sqlDA
-            sqlDA.Update(DS, "tblCustomer")
+            repo.Update(DS, "tblCustomer")
             MessageBox.Show("Please Smile Customer Create done successfully...")
         Else
             MessageBox.Show(flag)
-            sqlCmd.CommandText = "Select * from tblCustomer where CustomerId = '" & txtCustomerId.Text & "'"
-            sqlDA.SelectCommand = sqlCmd
-            sqlDA.Fill(DS, "tblCustomer")
+            repo.Fill(DS, "tblCustomer", "Select * from tblCustomer where CustomerId = '" & txtCustomerId.Text & "'")
             DR = DS.Tables("tblCustomer").Rows(0)
             DR("CustomerId") = txtCustomerId.Text
             DR("CustomerName") = txtCustomerName.Text
@@ -127,11 +124,10 @@ Public Class FrmCustomer
             End If
             DR("Date") = Today.Date()
             DR("Time") = Now.TimeOfDay()
-            sqlCB.DataAdapter = sqlDA
-            sqlDA.Update(DS, "tblCustomer")
+            repo.Update(DS, "tblCustomer")
             MessageBox.Show("Please Smile Customer Updated successfully...")
         End If
-        sqlCon.Close()
+        repo.Close()
         GenerateCustomerId()
         CustomerFormReset()
         btnSave.Enabled = False
@@ -161,25 +157,15 @@ Public Class FrmCustomer
 
     '*******************************************DataGrid View Function*********************************************************************
     Private Sub FillDataGridCustomer()
-        Dim sqlCmd As New SqlCommand()
-        Dim sqlDA As New SqlDataAdapter()
-        Dim ds As New DataSet()
-        sqlCon.Open()
-        sqlCmd.Connection = sqlCon
-        sqlCmd.CommandText = "Select * from tblCustomer"
-        sqlDA.SelectCommand = sqlCmd
-        ds.Clear()
-        sqlDA.Fill(ds, "tblCustomer")
-        DataGridViewCustomer.DataSource = ds.Tables("tblCustomer")
-        sqlCon.Close()
+        DS.Clear()
+        repo.Fill(DS, "tblCustomer", "Select * from tblCustomer")
+        DataGridViewCustomer.DataSource = DS.Tables("tblCustomer")
+        repo.Close()
     End Sub
     '***************Search Code************************************************************************************
     Private Sub btnCustomerIdSearch_Click(sender As Object, e As EventArgs) Handles btnCustomerIdSearch.Click
         flag = 1
-        sqlCon.Open()
-        sqlCmd.Connection = sqlCon
-        sqlCmd.CommandText = "Select * from tblCustomer  where CustomerId ='" & txtCustomerId.Text & "'"
-        sqlDr = sqlCmd.ExecuteReader()
+        sqlDr = repo.Query("Select * from tblCustomer  where CustomerId ='" & txtCustomerId.Text & "'")
         If sqlDr.Read() Then
             txtCustomerId.Text = sqlDr("CustomerId")
             txtCustomerName.Text = sqlDr("CustomerName")
@@ -213,7 +199,7 @@ Public Class FrmCustomer
             MessageBox.Show("Sorry No Record Found")
         End If
         btnSave.Enabled = True
-        sqlCon.Close()
+        repo.Close()
         sqlDr.Close()
     End Sub
 End Class

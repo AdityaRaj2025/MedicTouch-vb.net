@@ -1,11 +1,5 @@
 ﻿Imports System.Data.SqlClient
 Public Class frmAllReports
-    Public sqlCon As New SqlConnection("Server=(localdb)\MSSQLLocalDB;Database=dbMedicTouch;Integrated Security=True")
-    Public sqlCmd As New SqlCommand()
-    Public sqlDr As SqlDataReader
-    Public sqlDA As New SqlDataAdapter()
-    Public DS As New DataSet()
-    Public DR As DataRow
     Public sqlCB As New SqlCommandBuilder()
     Private Sub frmAllReports_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'dbMedicTouchDataSet.tblPurchaseOrderList' table. You can move, or remove it, as needed.
