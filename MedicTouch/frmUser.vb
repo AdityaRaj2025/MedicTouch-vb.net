@@ -1,14 +1,20 @@
 ﻿Imports System.Data.SqlClient
 Public Class frmUser
     Dim flag As Integer = 0
-    Public sqlCon As New SqlConnection("Server=(localdb)\MSSQLLocalDB;Database=dbMedicTouch;Integrated Security=True")
-    Public sqlCmd As New SqlCommand()
     Public sqlDr As SqlDataReader
-    Public sqlDA As New SqlDataAdapter()
     Public DS As New DataSet()
     Public DR As DataRow
-    Public sqlCB As New SqlCommandBuilder()
     '***********************Laod Event Code***************************************************
+    Private repo As Repository
+    Public Sub New()
+
+        ' Esta chamada é requerida pelo designer.
+        InitializeComponent()
+
+        ' Adicione qualquer inicialização após a chamada InitializeComponent().
+        repo = New Repository()
+    End Sub
+
     Private Sub frmUser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.MaximumSize = New Size(1110, 585)
         Me.MdiParent = frmMdiAdmin
@@ -43,10 +49,7 @@ Public Class frmUser
     '************Function User Id Genrate*******************************************
     Private Sub GenerateUserId()
         Dim slno As Integer
-        sqlCon.Open()
-        sqlCmd.Connection = sqlCon
-        sqlCmd.CommandText = "Select UserId from tblUser"
-        sqlDr = sqlCmd.ExecuteReader()
+        sqlDr = repo.Query("Select UserId from tblUser")
         While (sqlDr.Read())
             txtUserId.Text = sqlDr(0).ToString
         End While
@@ -58,16 +61,12 @@ Public Class frmUser
             txtUserId.Text = "U" & slno
         End If
         sqlDr.Close()
-        sqlCon.Close()
+        repo.Close()
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        sqlCon.Open()
-        sqlCmd.Connection = sqlCon
         If flag = 0 Then
-            sqlCmd.CommandText = "Select * from tblUser"
-            sqlDA.SelectCommand = sqlCmd
-            sqlDA.Fill(DS, "tblUser")
+            repo.Fill(DS, "tblUser", "Select * from tblUser")
             DR = DS.Tables("tblUser").NewRow
             DR("UserId") = txtUserId.Text
             DR("UserType") = cbxUserType.Text
@@ -90,14 +89,11 @@ Public Class frmUser
             DR("PAN") = txtPAN.Text
             DR("CreatePassword") = txtCreatePassword.Text
             DS.Tables("tblUser").Rows.Add(DR)
-            sqlCB.DataAdapter = sqlDA
-            sqlDA.Update(DS, "tblUser")
-            sqlCon.Close()
+            repo.Update(DS, "tblUser")
+            repo.Close()
             MessageBox.Show("Please Smile User Create done successfully...")
         Else
-            sqlCmd.CommandText = "Select * from tblUser where SupplierId = '" & txtUserId.Text & "'"
-            sqlDA.SelectCommand = sqlCmd
-            sqlDA.Fill(DS, "tblUser")
+            repo.Fill(DS, "tblUser", "Select * from tblUser where SupplierId = '" & txtUserId.Text & "'")
             DR = DS.Tables("tblUser").Rows(0)
             DR("UserId") = txtUserId.Text
             DR("UserName") = txtName.Text
@@ -147,24 +143,15 @@ Public Class frmUser
     End Sub
     '****************DataGrid View Function************************************
     Private Sub FillDataGridUserCreate()
-        Dim sqlCmd As New SqlCommand()
-        Dim sqlDA As New SqlDataAdapter()
         Dim ds As New DataSet()
-        sqlCon.Open()
-        sqlCmd.Connection = sqlCon
-        sqlCmd.CommandText = "Select * from tblUser"
-        sqlDA.SelectCommand = sqlCmd
-        ds.Clear()
-        sqlDA.Fill(ds, "tblUser")
+        repo.Fill(ds, "tblUser", "Select * from tblUser")
         DataGridViewUserCreate.DataSource = ds.Tables("tblUser")
-        sqlCon.Close()
+        repo.Close()
     End Sub
     '*************Button User Search*************************************************************************
     Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
-        sqlCon.Open()
-        sqlCmd.Connection = sqlCon
-        sqlCmd.CommandText = "Select * from tblUser where UserId ='" & txtUserId.Text & "'"
-        sqlDr = sqlCmd.ExecuteReader()
+        sqlDr = repo.Query("Select * from tblUser where UserId ='" & txtUserId.Text & "'")
+
         If sqlDr.Read() Then
             txtUserId.Text = sqlDr("UserId")
             cbxUserType.Text = sqlDr("UserType")
@@ -192,7 +179,7 @@ Public Class frmUser
             MessageBox.Show(" Sorry No Record Found")
         End If
         btnSave.Enabled = True
-        sqlCon.Close()
+        repo.Close()
         sqlDr.Close()
     End Sub
     '*************Button Reset****************************************************************

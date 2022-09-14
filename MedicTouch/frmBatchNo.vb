@@ -1,11 +1,5 @@
 ﻿Imports System.Data.SqlClient
 Public Class frmBatchNo
-    Public sqlCon As New SqlConnection("Server=(localdb)\MSSQLLocalDB;Database=dbMedicTouch;Integrated Security=True")
-    Public sqlCmd As New SqlCommand()
-    Public sqlDr As SqlDataReader
-    Public sqlDA As New SqlDataAdapter()
-    Public DS As New DataSet()
-    Public DR As DataRow
     Public sqlCB As New SqlCommandBuilder()
     Dim i As Integer
 
